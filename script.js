@@ -18,11 +18,7 @@ function parseText() {
                 lastMeta = seperator[i]
             } else {
                 if (!meta) html += `<p class="meta"> ${lastMeta} </p>`
-                if (next) {
-                    html += `<p class="me">${seperator[i]}</p>`
-                } else {
-                    html += `<p class="text">${seperator[i]}</p>`
-                }
+                next ? html += `<p class="me">${seperator[i]}</p>` : html += `<p class="text">${seperator[i]}</p>`
                 meta = false;
             }
         }
