@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#output {
+    padding: 40px;
+    height: 100%;
+}
+
+.text {
+    padding: 10px;
+    display: inline;
+    font-size: medium;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+}
+
+.me {
+    padding: 10px;
+    display: inline;
+    font-size: medium;
+    background-color: rgb(163, 221, 255);
+    border-radius: 10px;
+}
+
+#uploader {
+    background-color: rgb(255, 231, 210);
+    padding: 40px;
+    border-radius: 10px;
+    font-family: Helvetica, Arial;
+    margin: auto 20px;
+}
+
+#uploader label {
+    font-weight: bold;
+}
+
+.meta {
+    font-size: small;
+    color: rgb(139, 139, 139);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
